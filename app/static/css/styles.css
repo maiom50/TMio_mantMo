@@ -49,6 +49,11 @@ header nav ul li a:hover {
     height: 50px;
 }
 
+.time {
+    float: right;
+    height: 50px;
+}
+
 main {
     min-height: calc(100vh - 150px);
     padding: 30px 0;
@@ -154,6 +159,11 @@ p {
 .success-message p {
     color: #6c757d;
 }
+
+.contact-manager {
+    text-align: center;
+}
+
 
 footer {
     background: #343a40;

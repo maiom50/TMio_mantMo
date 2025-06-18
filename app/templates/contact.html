@@ -18,7 +18,12 @@
             <label for="message">Ваше сообщение:</label>
             <textarea id="message" name="message" required></textarea>
         </div>
-        
+
         <button type="submit" class="submit-btn">Отправить</button>
     </form>
+
+    <div class="contact-manager">
+        <h3>Отдел заботы о клиентах: {{ contact_info.name }}</h3>
+            <p>г. {{ contact_info.address.city }}, {{ contact_info.address.street }}, {{ contact_info.address.postal }}</p>
+    </div>
 {% endblock %}

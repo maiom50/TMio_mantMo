@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 
 {% block content %}
+
+
     <div class="home-intro">
         <h1>Добро пожаловать в мое Flask приложение</h1>
         <p>Исследуйте сайт, чтобы узнать больше о нас!</p>
@@ -9,5 +11,9 @@
     <div class="card">
         <h2>Flask</h2>
         <p>Мы используем Flask для создания современных веб-приложений.</p>
+    </div>
+
+    <div class="time">
+        <h3>Сейчас: {{ current_time.strftime('%A, %B %d, %Y %H:%M:%S') }}</h3>
     </div>
 {% endblock %}
